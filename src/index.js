@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './containers/pages/App';
 import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.min.css"
+import firebase from './config/firebase/';
+
+console.log(firebase);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
